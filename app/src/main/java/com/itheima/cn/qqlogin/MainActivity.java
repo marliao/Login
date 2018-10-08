@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         colorChange=login1;
         login1=login2;
         login2=colorChange;
-
+        tv_login1.setBackgroundDrawable(login1);
+        tv_login2.setBackgroundDrawable(login2);
     }
 }
